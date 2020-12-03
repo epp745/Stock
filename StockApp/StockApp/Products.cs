@@ -36,7 +36,6 @@ namespace StockApp
                 //update record
                 sqlQuery = @"UPDATE [dbo].[Products] 
                             SET [ProductName] = '" + productNameTextBox.Text + "', [ProductStatus] = " + productStatusComboBox.SelectedIndex + " WHERE [ProductCode] = " + productCodeTextBox.Text;
-                
             }
             else
             {
@@ -124,4 +123,4 @@ namespace StockApp
             LoadData();
         }
     }
-}
+} // comment test for GitHub
