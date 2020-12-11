@@ -115,6 +115,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.userNameTextBox);
             this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "   ";
             this.ResumeLayout(false);
             this.PerformLayout();
